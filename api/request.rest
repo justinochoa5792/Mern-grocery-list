@@ -1,0 +1,17 @@
+GET http://localhost:3001/grocery
+
+###
+POST http://localhost:3001/grocery/new
+Content-Type: application/json
+
+{
+    "text": "Bread"
+}
+
+###
+DELETE 
+http://localhost:3001/grocery/delete/60eb1b1e4421fc156d9a9af5
+
+###
+PUT
+http://localhost:3001/grocery/complete/60eb1b1e4421fc156d9a9af5
